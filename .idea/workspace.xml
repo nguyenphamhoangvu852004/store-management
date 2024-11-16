@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91a827fd-e7fe-4291-9a67-9a9a2917afda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/addProduct/AddProductViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/database/MysqlGetTypeProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dtos/getProductListDTOs/GetProductListResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dtos/getProductListSevenDayExpiryDTOs/GetProductListSevenDayExpiryResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dtos/getTypeListDTOs/GetTypeListResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dtos/getTypeListDTOs/GetTypeOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/interfaces/DatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/interfaces/OutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/getAllProductListMVVP/GetProductListPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/getAllProductListMVVP/GetProductlistViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/getAllProductListSevenDaysExpiryMVVP/GetProductListSevenDaysExpiryPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/getAllProductListSevenDaysExpiryMVVP/GetProductListSevenDaysExpiryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/getAllProductListSevenDaysExpiryMVVP/GetProductListSevenDaysExpiryViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/getTypeListMVVP/GetTypeListPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/getTypeListMVVP/GetTypeListViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usecase/getProductList/GetProductListUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/usecase/getTypeList/GetTypeListUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database/MysqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database/MysqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/ResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/addProductDTOs/DienMayDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/addProductDTOs/HangHoaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/addProductDTOs/SanhSuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/addProductDTOs/ThucPhamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/getProductListDTOs/HangDienMayOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/getProductListDTOs/HangHoaOutputDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dtos/getProductListDTOs/GetProductListOutputDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/getProductListDTOs/HangSanhSuOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/getProductListDTOs/HangThucPhamOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/removeProductDTOs/RemoveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/totalQuantityDTOs/HangHoaTotalQuantityDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/totalQuantityDTOs/TotalQuantityDienMayOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/totalQuantityDTOs/TotalQuantitySanhSuOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/totalQuantityDTOs/TotalQuantityThucPhamOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/updateOutputDTO/BaseOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/updateOutputDTO/UpdateDienMayOutPutDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/updateOutputDTO/UpdateSanhSuOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dtos/updateOutputDTO/UpdateThucPhamOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/HangDienMay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/HangDienMay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/HangHoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/HangHoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/HangSanhSu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/HangSanhSu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/HangThucPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/HangThucPham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/Presenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/DatabaseBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/InputBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/interfaces/InputBoundary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/OutputBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/RequestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/interfaces/RequestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/ResponseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/interfaces/ResponseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/addProduct/AddProductUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/getListProductExpired/GetProductListSevenDayExpiryOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/getListProductExpired/GetProductListSevenDayExpiryUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/usecase/getListProductExpired/GetProductListSevenDayExpiryUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/getProductListUseCase/GetProductListOutputDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/getProductListUseCase/GetProductListUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/removeProduct/RemoveProductUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/totalQuantityUseCase/TotalQuantityUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/usecase/updateProduct/UpdateProductUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/AddProductTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/GetProductListSevenDayExpiryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/GetProductListSevenDayExpiryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/GetProductListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/GetProductListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/GetTotalQuantityProductsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/RemoveProductTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/database/MysqlConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/database/MysqlConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/database/MysqlDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/HangDienMay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/HangDienMay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/HangHoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/HangHoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/HangSanhSu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/HangSanhSu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/HangThucPham.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/HangThucPham.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/usecase/DatabaseBoundary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/usecase/InputBoundary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/usecase/OutputBoundary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/usecase/RequestData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/usecase/ResponseData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/AppTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2odvTmJFIBJZraaQzhKbQHPm9U2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MainView.executor": "Run",
+    "JUnit.GetProductListSevenDayExpiryTest.getProductListSevenDayExpiryOK.executor": "Run",
+    "JUnit.GetProductListTest.executor": "Run",
+    "JUnit.GetProductListTest.testGetAllProductListOK.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nphv8/Desktop/JavaSwingApps/store-manager/src/main/java/com/example/addProduct"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nphv8\Desktop\JavaSwingApps\store-manager\src\main\java\com\example\addProduct" />
+      <recent name="C:\Users\nphv8\Desktop\JavaSwingApps\store-manager\src\main\java\com\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nphv8\Desktop\JavaSwingApps\store-manager\src\main\java\com\example\addProduct" />
+      <recent name="C:\Users\nphv8\Desktop\JavaSwingApps\store-manager\src\main\java\com\example\addProduct (1)" />
+      <recent name="C:\Users\nphv8\Desktop\JavaSwingApps\store-manager\src\main\java\com\example\usecase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="store-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ui.MainView" />
+      <module name="store-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProductListSevenDayExpiryTest.getProductListSevenDayExpiryOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="store-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.GetProductListSevenDayExpiryTest" />
+      <option name="METHOD_NAME" value="getProductListSevenDayExpiryOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProductListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="store-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.GetProductListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProductListTest.testGetAllProductListOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="store-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.GetProductListTest" />
+      <option name="METHOD_NAME" value="testGetAllProductListOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GetProductListTest.testGetAllProductListOK" />
+        <item itemvalue="JUnit.GetProductListTest" />
+        <item itemvalue="JUnit.GetProductListSevenDayExpiryTest.getProductListSevenDayExpiryOK" />
+        <item itemvalue="Application.MainView" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91a827fd-e7fe-4291-9a67-9a9a2917afda" name="Changes" comment="" />
+      <created>1731212277921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731212277921</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/getProductList/GetProductListUseCase.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/getProductList/GetProductListUseCase.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/getAllProductListMVVP/GetProductListPresenter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainView.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainView.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainView.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/AddProductView.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>16</line>
+          <properties class="com.example.usecase.displayProductManagementView.DisplayProductManagementForm">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/usecase/displayProductManagementView/DisplayProductManagementForm.java</url>
+          <line>23</line>
+          <properties class="com.example.usecase.displayProductManagementView.DisplayProductManagementForm">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/getAllProductListMVVP/GetProductListPresenter.java</url>
+          <line>22</line>
+          <properties class="com.example.ui.getAllProductListMVVP.GetProductListPresenter" method="exportResult">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ui/MainController.java</url>
+          <line>44</line>
+          <properties class="com.example.ui.MainController" method="executeAddProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
